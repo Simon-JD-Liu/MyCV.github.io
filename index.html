@@ -59,12 +59,17 @@
             margin-left: 1em;
         }
         
-        p.abstract {
+        .abstract p {
+            text-align: justify;
             margin: 5px 0 10px 20px;
-            font-style: italic;
+            line-height: 1.6; 
+            font-style: italic; 
             color: #555;
-        }
-
+            }
+       .abstract strong {
+           font-weight: bold;
+           }
+        
         button {
             margin-left: 10px;
             padding: 5px 10px;
@@ -77,6 +82,17 @@
 
         button:hover {
             background-color: #0056b3;
+        }
+
+        .research-keywords {
+            list-style-type: disc;
+            margin: 0;
+            padding-left: 20px;
+            text-align: left;
+        }
+        .research-keywords li {
+            margin-bottom: 10px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -112,11 +128,61 @@
         <li><strong>Liu J</strong>, Qi J, Yin P, et al. Rising cause-specific mortality risk and burden of compound heatwaves amid climate change. <em><strong>Nature Climate Change.</strong></em> 2024. doi:<a href="https://www.nature.com/articles/s41558-024-02137-5">10.1038/s41558-024-02137-5</a>
         <button onclick="toggleAbstract('abstract1')">Show Abstract</button>
         <p id="abstract1" style="display:none;">Global warming shifts daytime-only heatwaves to nighttime-only and day–night compound heatwaves. However, evidence on the cause-specifc burdens of these heatwaves in a changing climate and ageing population is limited. Here, by analysing 1,088,742 non-accidental deaths from 272 Chinese cities, we found that compound heatwaves posed signifcantly higher cardiopulmonary mortality risks and burdens than daytime-only and nighttime-only heatwaves, particularly for ischaemic stroke, chronic obstructive pulmonary disease and regions with high summer temperature variation. Projections suggested substantial increases in compound heatwave-related mortality (4.0–7.6-fold) by the 2090s relative to the 2010s under medium and high greenhouse gas emission scenarios, outpacing nighttime-only heatwaves (0.7–1.9-fold) and contrasting with decreasing daytime heatwave-related mortality (0.3–0.8-fold). A strict emission control scenario (Shared Socioeconomic Pathway 1-1.9) may reverse most heatwave-related mortality increases. The confuence of global warming and ageing amplifes heatwave-related burdens, outstripping the sum of their individual impacts. Our fndings underscore the importance of addressing compound heatwaves amid global warming.</p></li>
-        <li><strong>Liu J</strong>, Lv C, Zheng J, et al. The impact of non-optimum temperatures, heatwaves and cold spells on out-of-hospital cardiac arrest onset in a changing climate in China: a multi-center, time-stratified, case-crossover study. <em><strong>Lancet Regional Health West. Pac.</strong></em> 2023;36:100778. doi:<a href="https://doi.org/10.1016/j.lanwpc.2023.100778">10.1016/j.lanwpc.2023.100778</a></li>
-        <li>Wu C<sup>#</sup>, <strong>Liu J<sup>#</sup></strong>, Li Y, et al. Associations of residential air pollution and green space with all-cause and cause-specific mortality in individuals with diabetes: an 11-year prospective cohort study. <em><strong>eBioMedicine.</strong></em> 2024;108:105376. doi:<a href="https://doi.org/10.1016/j.ebiom.2024.105376">10.1016/j.ebiom.2024.105376</a></li>
-        <li><strong>Liu J</strong>, Dong H, Li M, et al. Projecting the excess mortality due to heatwave and its characteristics under climate change, population and adaptation scenarios. <em><strong>Int. J. Hyg. Environ. Health.</strong></em> 2023;250:114157. doi:<a href="https://www.sciencedirect.com/science/article/abs/pii/S1438463923000482?via%3Dihub">10.1016/j.ijheh.2023.114157</a></li>
-        <li><strong>Liu J</strong>, Li M, Yang Z, et al. Rising trend and regional disparities of the global burden of disease attributable to ambient low temperature, 1990-2019: an analysis for the Global Burden of Disease Study 2019. <em><strong>J. Glob. Health.</strong></em> 2024;14:04017. doi:<a href="https://jogh.org/2024/jogh-14-04017">10.7189/jogh.14.04017</a></li>
-        <li>Wang L<sup>#</sup>, <strong>Liu J<sup>#</sup></strong>, Yin P, et al. Mortality risk and burden of sudden cardiac arrest associated with hot nights, heatwaves, cold spells, and non-optimum temperatures in 0.88 million patients: An individual-level case-crossover study. <em><strong>Sci. Total Environ.</strong></em>2024;949:175208. doi:<a href="https://doi.org/10.1016/j.scitotenv.2024.175208">10.1016/j.scitotenv.2024.175208</a></li>
+        
+        <li><strong>Liu J</strong>, Lv C, Zheng J, et al. The impact of non-optimum temperatures, heatwaves and cold spells on out-of-hospital cardiac arrest onset in a changing climate in China: a multi-center, time-stratified, case-crossover study. <em><strong>Lancet Regional Health West. Pac.</strong></em> 2023;36:100778. doi:<a href="https://doi.org/10.1016/j.lanwpc.2023.100778">10.1016/j.lanwpc.2023.100778</a>
+        <button onclick="toggleAbstract('abstract2')">Show Abstract</button>
+        <div id="abstract2" style="display:none;">
+        <p><strong>Background</strong><br>
+        Out-of-hospital cardiac arrest (OHCA) is a time-critical and fatal medical emergency that has been linked to non-optimal temperatures. However, the future burden of OHCA due to non-optimal temperatures, heatwaves, and cold spells under climate change has not been well evaluated.</p>
+        <p><strong>Methods</strong><br>
+        We conducted a time-stratified case-crossover study in 15 Northern Chinese cities throughout 2020 to estimate the exposure-response relationships of non-optimal temperatures, heatwaves, and cold spells with hourly OHCA onset in hot and cold seasons. We obtained future daily average temperatures by using 20 general circulation models under two greenhouse gas emission scenarios: one with certain emission control and the other with relaxed control. Lastly, we projected the change of OHCA burden under these two climate scenarios.</p>
+        <p><strong>Findings</strong><br>
+        We analyzed a total of 29,671 OHCA patients and found that high temperatures and heatwaves as well as low temperatures and cold spells were all significantly associated with an increased risk of OHCA onset. Under the scenario of uncontrolled emissions, the attributable fraction (AF) of OHCA due to high temperatures and heatwaves would increase by 4.94% and 6.99% from the 2010s to 2090s, respectively. The AF due to low temperatures would decrease by 1.27% by the 2090s and the effects of cold spells were projected to be marginal after the 2050s. Under a medium emission control scenario, the upward trend of heat-related OHCA burden would become flat, and the decline in cold-related OHCA burden would also slow down.</p>
+        <p><strong>Interpretation</strong><br>
+        Our study provides evidence of significant morbidity risk and burden of OHCA associated with global warming across Northern China. Our findings indicate that the increase in OHCA burden attributable to heat could not be offset by the decrements attributable to cold, emphasizing the importance of mitigation policies for limiting global warming and reducing the associated risks of OHCA onset.</p></div></li>
+        
+        <li>Wu C<sup>#</sup>, <strong>Liu J<sup>#</sup></strong>, Li Y, et al. Associations of residential air pollution and green space with all-cause and cause-specific mortality in individuals with diabetes: an 11-year prospective cohort study. <em><strong>eBioMedicine.</strong></em> 2024;108:105376. doi:<a href="https://doi.org/10.1016/j.ebiom.2024.105376">10.1016/j.ebiom.2024.105376</a>
+        <button onclick="toggleAbstract('abstract3')">Show Abstract</button>
+        <div id="abstract3" class="abstract" style="display:none;">
+        <p><strong>Background</strong><br>
+        To assess the long-term impact of residential air pollution and green space exposure on cause-specific mortality in individuals with type 2 diabetes mellitus (T2DM).</p>
+        <p><strong>Methods</strong><br>
+        This study includes 174,063 participants newly diagnosed with T2DM from a prospective cohort in Shanghai, China, enrolled between 2011 and 2013. Residential annual levels of air pollutants, including fine (PM2.5) and coarse (PM2.5-10) particulate matter, nitrogen dioxide (NO2), along with the normalized difference vegetation index (NDVI), were derived from satellite-based exposure models.</p>
+        <p><strong>Findings</strong><br>
+        During a median follow-up of 7.9 years (equivalent to 1,333,343 person-years), this study recorded 22,205 deaths. Higher exposure to PM2.5 was significantly associated with increased risks for all mortality outcomes, whilst PM2.5-10 showed no significant impacts. The strongest associations of PM2.5 were observed for diabetes with peripheral vascular diseases [hazard ratio (HR): 2.70; per 10 μg/m3 increase] and gastrointestinal cancer (2.44). Effects of NO2 became significant at concentrations exceeding approximately 45 μg/m³, with the highest associations for lung cancer (1.20) and gastrointestinal cancer (1.19). Conversely, each interquartile range increase in NDVI (0.10) was linked to reduced mortality risks across different causes, with HRs ranging from 0.76 to 1.00. The association between greenness and mortality was partly and significantly mediated by reduced PM2.5 (23.80%) and NO2 (26.60%). There was a significant and negative interaction between NO2 and greenness, but no interaction was found between PM2.5 and greenness.</p>
+        <p><strong>Interpretation</strong><br>
+        Our findings highlight the vulnerability of individuals with T2DM to the adverse health effects of air pollution and emphasise the potential protective effects of greenness infrastructure.</p></div></li>
+        
+        <li><strong>Liu J</strong>, Dong H, Li M, et al. Projecting the excess mortality due to heatwave and its characteristics under climate change, population and adaptation scenarios. <em><strong>Int. J. Hyg. Environ. Health.</strong></em> 2023;250:114157. doi:<a href="https://www.sciencedirect.com/science/article/abs/pii/S1438463923000482?via%3Dihub">10.1016/j.ijheh.2023.114157</a>
+        <button onclick="toggleAbstract('abstract4')">Show Abstract</button>
+        <div id="abstract4" class="abstract" style="display:none;">
+        <p><strong>Background</strong><br>
+        Heatwaves have significant adverse effects on human health. The frequency, duration, and intensity of heatwaves are projected to increase dramatically, in the context of global warming. However, there are few comprehensive assessments of the health impact of heatwaves considering different definitions, and their characteristics under climate change scenarios.</p>
+        <p><strong>Objective</strong><br>
+        We aimed to compare future excess mortality related to heatwaves among different definitions under climate change, population, and adaptation scenarios in China and further explore the mortality burden associated with heatwave characteristics.</p>
+        <p><strong>Methods</strong><br>
+        Daily data during 2010–2019 were collected in Guangzhou, China. We adopted nine common heatwave definitions and applied quasi-Poisson models to estimate the effects of heatwaves and their characteristics' impact on mortality. We then projected the excess mortality associated with heatwaves and their characteristics concerning climate change, population, and adaptation scenarios.</p>
+        <p><strong>Results</strong><br>
+        The relative risks of the nine common heatwave definitions ranged from 1.05 (95% CI: 1.01, 1.10) to 1.24 (95% CI: 1.13, 1.35). Heatwave-related excess mortality will consistently increase in the future decades considering multiple heatwave definitions, with more rapidly increasing rates under the Shared Socioeconomic Path5-8.5 and non-adaptability scenarios. Regarding heatwave characteristics, the intensity is the main factor involved in the threat of heatwaves. The increasing trend of characteristic-related mortality burden is similar to that of heatwaves, and the mortality burden caused by the duration of the heatwaves was the largest among all characteristics.</p>
+        <p><strong>Conclusions</strong><br>
+        This study provides a comprehensive picture of the impact of heatwaves and their characteristics on public health under various climate change scenarios, population changes, and adaptive assumptions. The results may provide important public health implications for policymakers in planning climate change adaptation and mitigation policies, and implementing specific plans.</p></div></li>
+        
+        <li><strong>Liu J</strong>, Li M, Yang Z, et al. Rising trend and regional disparities of the global burden of disease attributable to ambient low temperature, 1990-2019: an analysis for the Global Burden of Disease Study 2019. <em><strong>J. Glob. Health.</strong></em> 2024;14:04017. doi:<a href="https://jogh.org/2024/jogh-14-04017">10.7189/jogh.14.04017</a>
+        <button onclick="toggleAbstract('abstract5')">Show Abstract</button>
+        <div id="abstract5" class="abstract" style="display:none;">
+        <p><strong>Background</strong><br>
+        Previous studies on the effect of global warming on the global burden of disease have mainly focussed on the impact of high temperatures, thereby providing limited evidence of the effect of lower temperatures.</p>
+        <p><strong>Methods</strong><br>
+        We adopted a three-stage analysis approach using data from the Global Burden of Disease 2019 study. First, we explored the global burden of disease attributable to low temperatures, examining variations by gender, age, cause, region, and country. Second, we analysed temporal trends in low-temperature-related disease burdens from 1990 to 2019 by meta-regression. Finally, we fitted a mixed-effects meta-regression model to explore the effect modification of country-level characteristics.</p>
+        <p><strong>Results</strong><br>
+        In 2019, low temperatures were responsible for 2.92% of global deaths and 1.03% of disability-adjusted life years (DALYs), corresponding to a death rate of 21.36 (95% uncertainty interval (UI) = 18.26, 24.73) and a DALY rate of 335 (95% UI = 280, 399) per 100 000 population. Most of the deaths (85.12%) and DALYs (94.38%) attributable to low temperatures were associated with ischaemic heart disease, stroke, and chronic obstructive pulmonary disease. In the last three decades, we observed an upward trend for the annual number of attributable deaths (P < 0.001) and a downward trend for the rates of death (P < 0.001) and DALYs (P < 0.001). The disease burden associated with low temperatures varied considerably among regions and countries, with higher burdens observed in regions with middle or high-middle socio-demographic indices, as well as countries with higher gross domestic product per capita and a larger proportion of ageing population.</p>
+        <p><strong>Conclusions</strong><br>
+        Our findings emphasise the significance of raising public awareness and prioritising policies to protect global population health from the adverse effects of low temperatures, even in the face of global warming. Particular efforts should be targeted towards individuals with underlying diseases (e.g. cardiovascular diseases) and vulnerable countries or regions (e.g. Central Asia and central Europe).</p></div></li>
+        
+        <li>Wang L<sup>#</sup>, <strong>Liu J<sup>#</sup></strong>, Yin P, et al. Mortality risk and burden of sudden cardiac arrest associated with hot nights, heatwaves, cold spells, and non-optimum temperatures in 0.88 million patients: An individual-level case-crossover study. <em><strong>Sci. Total Environ.</strong></em>2024;949:175208. doi:<a href="https://doi.org/10.1016/j.scitotenv.2024.175208">10.1016/j.scitotenv.2024.175208</a>
+        <button onclick="toggleAbstract('abstract6')">Show Abstract</button>
+        <p id="abstract6" style="display:none;">Sudden cardiac arrest (SCA) is a global health concern, imposing a substantial mortality burden. However, the understanding of the impact of various extreme temperature events, when accounting for the effect of daily average temperature on SCA, remains incomplete. Additionally, the assessment of SCA mortality burden associated with temperatures from an individual-level design is limited. This nationwide case-crossover study collected individual SCA death records across all (2844) county-level administrative units in the Chinese Mainland from 2013 to 2019. Four definitions for hot nights and ten for both cold spells and heatwaves were established using various temperature thresholds and durations. Conditional logistic regression models combined with distributed lag nonlinear models were employed to estimate the cumulative exposure-response relationships. Based on 887,662 SCA decedents, this analysis found that both hot nights [odds ratio (OR): 1.28; attributable fraction (AF): 1.32 %] and heatwaves (OR: 1.40; AF: 1.29 %) exhibited significant added effects on SCA mortality independent of daily average temperatures, while cold spells were not associated with an elevated SCA risk after accounting for effects of temperatures. Cold temperatures [below the minimum mortality temperature (MMT)] accounted for a larger mortality burden than high temperatures (above the MMT) [AF: 12.2 % vs. 1.5 %]. Higher temperature-related mortality risks and burdens were observed in patients who experienced out-of-hospital cardiac arrest compared to those with in-hospital cardiac arrest. This nationwide study presents the most compelling and comprehensive evidence of the elevated mortality risk and burden of SCA associated with extreme temperature events and ambient temperatures amid global warming.</p></li>
+        
     </ul>
     <ul>
         <li><strong>Publishable Articles</strong></li>
@@ -125,8 +191,34 @@
 
     <hr>
 
+    <h3>Teaching Experience</h3>
+    <ul>
+        <li><strong>Teaching Assistant</strong>, Department of Environmental Health, Fudan University<span style="float: right;">Spring & Summer 2024</span></li>
+    </ul>
+    <ul class="research-keywords">
+        <li>Assisted in course instruction by preparing teaching materials and addressing undergraduate student queries.</li>
+        <li>Coordinated thesis defenses, including scheduling meeting rooms and notifying undergraduate students of mid-term and final defense timelines.</li>
+        <li>Managed undergraduate labs by overseeing hazardous chemicals cabinets and ensuring compliance with safety protocols.</li>
+    </ul>
+    <hr>
+    
     <h3>Current Research Keywords</h3>
-    <p><strong>Health impacts of climate change; Environmental risk assessment, focusing on cardiovascular and respiratory diseases; Future disease burden under global warming and population aging</strong></p>
+    <ul class="research-keywords">
+        <li>Health impacts of climate change</li>
+        <li>Environmental risk assessment, focusing on cardiovascular and respiratory diseases</li>
+        <li>Future disease burden under global warming and population aging</li>
+    </ul>
+    <hr>
+    
+   <h3>Technical Skills</h3>
+   <ul>
+       <li><em><strong>R:</strong></em> Primary tool for data analysis and statistical modeling in all my research projects.</li>
+       <li><em><strong>Python:</strong></em> Used for extracting and dimensionally reducing raw GCM data from CMIP6 in projection studies, and it is also the software I have recently been exploring for machine learning and causal inference applications.</li>
+       <li><em>Linux:</em> I have basic experience with Linux systems, primarily for processing large datasets in our research group.</li>
+       <li><em>SAS:</em> Intermediate proficiency.</li>
+       <li><em>SPSS:</em> Previously used extensively during undergraduate studies; minimal use currently.</li>
+   </ul>
+    
     <script>
         function toggleAbstract(id) {
             const abstract = document.getElementById(id);
@@ -140,6 +232,8 @@
             }
         }
     </script>
+
+    
 </body>
 
 </html>
