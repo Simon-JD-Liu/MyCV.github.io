@@ -85,6 +85,7 @@
         }
 
         .research-keywords {
+            font-weight: normal;
             list-style-type: disc;
             padding-left: 20px;
             margin: 0;   
@@ -97,12 +98,24 @@
         }
         
         .teaching-details {
+            font-weight: normal;
             list-style-type: disc;
             padding-left: 20px;
             margin: 0; 
         }
         
         .teaching-details li {
+            margin-left: 0;
+            margin-bottom: 10px;
+            text-align: left;
+            font-weight: normal;
+        }
+
+        .te-skill {
+            font-weight: normal;
+        }
+        
+        .te-skill li {
             margin-left: 0;
             margin-bottom: 10px;
             text-align: left;
@@ -245,7 +258,7 @@
     <hr>
     
    <h3>Technical Skills</h3>
-   <ul>
+   <ul class="te-skill">
        <li><em><strong>R:</strong></em> Primary tool for data analysis and statistical modeling in all my research projects.</li>
        <li><em><strong>Python:</strong></em> Used for extracting and dimensionally reducing raw GCM data from CMIP6 in projection studies, and it is also the software I have recently been exploring for machine learning and causal inference applications.</li>
        <li><em>Linux:</em> I have basic experience with Linux systems, primarily for processing large datasets in our research group.</li>
